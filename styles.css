@@ -1,0 +1,366 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Old Stardard Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    font-style: oblique;
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+ul{
+    font-size: large;
+    color: #e4b20c;
+}
+h1{
+    color:black;
+    font-style: italic;
+    
+    
+    border-radius: 15px;
+    font-size: 3rem;
+    margin-top: 50px;
+}
+h2{
+    color :rgb(13, 117, 49);
+    font-style: normal;
+}
+/*.header-text{
+    position:absolute;
+    top:40%;
+    left:48%;
+    transform:translate(-50%,-50%);
+    color:white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 4px black;
+    opacity:0;
+    transform:translateY(45deg);
+    transition:opacity .5s ease-in-out, transform .5s ease-in-out;
+    font-size: 2rem;
+    z-index: 10;
+    box-sizing: border-box;
+}
+.header-text.visible{
+    opacity:1;
+    transform:translate(-50%,0);
+}*/
+.intro-text {
+    background-color: hsl(134, 84%, 15%);
+    color:white;
+}
+
+/* Header */
+header {
+    background: url('background.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 100vh;
+    text-align: center;
+    /*display: flex;*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header-content  {
+    color: black;
+
+    padding-top: 20px;
+    margin-top: 5px;
+    border-radius: 15px;
+    display: block;
+   
+    
+}
+
+.header-content p {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*page one*/
+.page-one{
+    background-image: url('/photo/Viv\ \(2\).jpg');
+    background-color: black;
+    font-weight: bold;
+
+}
+
+/* Sections */
+.About-content{
+    background-color: hsl(134, 84%, 15%);
+    color: antiquewhite;
+}
+section {
+    padding: 0rem 0;
+    text-align: center;
+
+   
+}
+
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+section p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+
+/* Footer */
+footer {
+    background-color: hwb(0 57% 40%);
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+/* about */
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.Portfolio-container{
+    background-color: rgb(14, 105, 26);
+}
+
+.profile-photo {
+    border-radius: 50%;
+    margin-right: 2rem;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.about-text {
+    max-width: 600px;
+    text-align: left;
+}
+/* portfolio */
+.portfolio-content{
+    background-color: #052445;
+    color: white;
+}
+.portfolio-container{
+    color:white;
+}
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.portfolio-item {
+    text-align: center;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.portfolio-item h3 {
+    margin: 1rem 0;
+}
+/*services*/
+.services-container{
+    background-color:   hsl(134, 84%, 15%);
+    color: white;
+}
+/*.dev-container{
+    display: inline-block;
+    color: aqua;
+    align-content:;
+}
+.design-container{
+    display: inline-block;
+}
+.front-container{
+    display: inline-block;
+}*/
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 5 columns per row */
+    gap: px; /* Space between boxes */
+    width: 100%;
+    max-height: 30;
+    row-gap: 10px;
+    grid-gap: 10px;
+    padding:20px;
+    background-color: hwb(300 56% 41%);
+    background-image: url(/photo/download.jpeg);
+}
+
+.box {
+    padding: 20px;
+    background-color:  hsl(134, 84%, 15%);
+    border: 5px solid #e4b20c;
+    text-align: center;
+    border-radius: 15px;
+}
+
+
+
+/* contact */
+.contact-container{
+    background-color: #052445 ;
+    color: white;
+}
+form {
+    max-width: 500px;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 0.7rem;
+    background-color:rgb(181, 62, 62);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color:rgb(21, 215, 21);
+}
+/* Blog */
+.blog-post {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+   background-color: #074a11;
+}
+
+.blog-post h3 a {
+    text-decoration: none;
+    color:hwb(120 69% 7%)
+}
+.blog-text{
+    color:white;
+}
+
+.blog-post p {
+    margin-top: 0.5rem;
+}
+
+.blog-post p a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.blog-post p a:hover {
+    text-decoration: underline;
+}
+ /* Responsive Styles */
+@media (max-width: 768px) {
+    .about
+
+    }
+
+}
+* FOOTER */
+.footer{
+    color:black;
+    background-color:black;
+    animation-timeline:scroll(3s);
+    padding:80px 0px;
+}
+.footer-container{
+    color:black;
+    width:100% ;
+    background-color:#e7d7d7;
+    margin:auto;
+  
+}
+
+
+.footer-col .contact-icons a{
+    display:inline-block;
+    height:40px;
+    width:40px;
+    background-color: white;
+    margin:0 10px 10px 0;
+    text-align:center;
+    line-height:60px;
+    border-radius: 50%;
+    color:var(--color);
+    transition:all 0.3s ease-in-out;
+}
+.footer-col .contact-icons a:hover,
+.footer-col .contact-icons a:focus{
+    color:#24262b;
+    background-color:var(--color);
+}
+.copyright{
+    display:block;
+    align-items: center;
+    text-align: center;
+}
+.copyright a{
+    text-decoration: none;
+    color:gold;
+}
+@media (max-width:768px){
+    .footer-col{
+        width:50%;
+        margin-bottom:30px;
+    }
+}
+@media (max-width:576px){
+    .footer-col{
+        width:100%;
+    }
+.contact-icons{
+    width: 30px;
+     height: 30px;
+}
+
