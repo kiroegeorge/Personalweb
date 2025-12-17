@@ -9,4 +9,4 @@ A responsive personal portfolio website built to showcase my projects, technical
 - Netlify
 
 ### Live Demo
-🌐[view web] (https://personalweb.netlify.app)
+🌐[View Website](https://personalweb.netlify.app)
