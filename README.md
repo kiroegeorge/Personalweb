@@ -1,2 +1,12 @@
-# Personalweb
-A personal portfolio website built to showcase my projects, technical skills, and learning progress in software development.
+## Personal Portfolio Website
+
+A responsive personal portfolio website built to showcase my projects, technical skills, and learning progress in software development.
+
+### Tools Used
+- HTML
+- CSS
+- JavaScript
+- Netlify
+
+### Live Demo
+🌐 https://personalweb.netlify.app
